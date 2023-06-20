@@ -4,7 +4,7 @@ const app = express();
 const routes = require('./routes/users');
 
 // set up routes
-app.use('/users', routes);
+app.use('/', routes);
 
 // start the server
 const PORT = 3005;
